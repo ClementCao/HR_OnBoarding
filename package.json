@@ -1,0 +1,26 @@
+{
+  "name": "onboarding_new",
+  "version": "1.0.0",
+  "description": "Transfer the hired employees's informations to HR before they entry",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementCao/HR_OnBoarding.git"
+  },
+  "keywords": [
+    "NODEJS+KOA2+BOOTSTRAP3+ACEADMIN+MSSQL"
+  ],
+  "author": "ClementCao",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ClementCao/HR_OnBoarding/issues"
+  },
+  "homepage": "https://github.com/ClementCao/HR_OnBoarding#readme",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0"
+  }
+}
