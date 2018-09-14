@@ -50,11 +50,8 @@ app.use(bodyParser({
 //配置静态资源的中间件
 app.use(static(__dirname + '/public'));
 //引入模块
-// var admin = require('./routes/admin.js');
-// var api = require('./routes/api.js');
-
-// router.use('/admin', admin);
-// router.use('/api', api);
+var index = require('./routes/index.js');
+router.use('/OnBoarding',index);
 
 app.use(router.routes());
 app.use(router.allowedMethods());
